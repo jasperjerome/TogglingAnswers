@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(247, 241, 241);
+    transition: .5s linear;
+}
+.ques_head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ques {
+    width: 500px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px;
+    margin: 30px;
+}
+.answer {
+    display: none;
+    transition: .5s linear;
+}
+.open-answer {
+    display: block;
+    transition: .5s linear;
+}
+i {
+    cursor: pointer;
+}
+.common_ques {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
